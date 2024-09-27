@@ -1,41 +1,73 @@
-.menubar{
+body{
+    margin: 0px;
+}
+.menu{
+    height: 60px;
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+    z-index: 1;
+    
+}
 
-    margin: auto;
-    width: 961.6px;
-    max-width: 1024px;
-    background-color: darkgrey;
+.offer{
+    height: 40px;
+    width: 100%;
 }
 
 .pro{
-
+    height: 570px;
+    width: 100%;
+    background-color: gold;
 }
 
 .nonpro{
+    height: 570px;
+    width: 100%;
+    background-color: lightblue;
 
 }
 
 .watch{
+    height: 570px;
+    width: 100%;
+    background-color: crimson;
 
 }
 
 .ultra{
+    height: 462px;
+    width: 50%;
+    background-color: lightsalmon;
+    
 
 }
 
 .pods{
-
+    height: 462px;
+    width: 50%;
+    background-color: crimson;
+    
 }
 
 .podsmax{
-
+    height: 462px;
+    width: 50%;
+    background-color: black;
 }
 
 .air{
-
+    height: 462px;
+    width: 50%;
+    background-color: purple;
 }
 .ipad{
-
+    height: 462px;
+    width: 50%;
+    background-color: yellow;
 }
 .trade{
-
+    height: 462px;
+    width: 50%;
+    background-color: goldenrod;
 }
