@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .menu{
     height: 60px;
@@ -21,7 +22,8 @@ body{
 }
 
 .offer{
-    background-color: lightgrey;
+    background-color: #1d1d1f;
+    color: white;
     margin-top: 60px;
     height: 40px;
     width: 100%;
@@ -31,18 +33,23 @@ body{
 }
 
 .pro{
-    height: 580px;
+    height: 570px;
     width: 100%;
+    padding-top: 15px;
     background-image: url(images/pro.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin-top: 0px;
+    text-decoration: none;
 
 }
 .protext{
     color: white;
     text-align: center;
     position: relative;
-    top: 30px;
+    top: -30px;
+    line-height: 1.1;
 }
 .protext h1{
     font-size: 60px;
@@ -50,18 +57,57 @@ body{
 .protext h2{
     font-size: 30px;
 }
+
 .buttona{
+    background-color: #005bb5;
+    color: #0071e3;
+    padding: 12px 28px;
+    font-size: 17px;
+    font-weight: 500;
+    border: 2px solid #0071e3;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    align-items: center;
     
 }
-.buttonb{
+.buttona:hover {
+    background-color: #005bb5; 
+    color: #f0f0f5; 
+    border-color: #005bb5;
+}
 
+.buttonb{
+    background-color: transparent;
+    color: #0071e3;
+    padding: 12px 28px;
+    font-size: 17px;
+    font-weight: 500;
+    border: 2px solid #0071e3;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    background: none;
+    outline: none;
+
+}
+.buttonb:hover {
+    background-color: #f0f0f5; 
+    color: #005bb5; 
+    border-color: #005bb5;
 }
 
 .nonpro{
     height: 570px;
     width: 100%;
-    background-color: red;
+    background-image:url(https://www.apple.com/v/iphone-16/a/images/meta/iphone-16_specs__bq5wb41xhdle_og.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin-top: 5px;
 
 }
@@ -69,8 +115,11 @@ body{
 .watch{
     height: 570px;
     width: 100%;
-    background-color: blue;
-    background-size: 100% 100%;
+    background-image:url(images/applewatch.jpg) ;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin-top: 5px
 
 }
@@ -87,8 +136,11 @@ body{
     width: 48%;
     padding: 10px;
     background-color: rgb(122, 255, 124);
+    background-image: url(https://www.apple.com/in/apple-watch-ultra-2/images/overview/hero/hero_endframe__ewae8bv9nsia_large.jpg);
     /* display: inline; */
-    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
 
 }
 
@@ -99,8 +151,10 @@ body{
     width: 48%;
     padding: 10px;
     background-color: beige;
-    /* background-image: url(images/airpods_4.jpg); */
+    background-image: url(images/airpods_4.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     /* display: inline; */
     
 }
@@ -119,6 +173,10 @@ body{
     width: 50%;
     padding: 10px;
     background-color: black;
+    background-image: url(images/airpodmax.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .air{
@@ -128,6 +186,10 @@ body{
     width: 50%;
     padding: 10px;
     background-color: purple;
+    background-image: url(images/macbookm3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .container3{
     display: flex;
@@ -141,6 +203,10 @@ body{
     width: 48%;
     padding: 10px;
     background-color: yellow;
+    background-image: url(https://www.apple.com/newsroom/images/product/ipad/standard/apple_ipad-pro-spring21_hero_04202021_big.jpg.large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
 }
 .trade{
     margin: 5px;
@@ -148,6 +214,10 @@ body{
     width: 48%;
     padding: 10px;
     background-color: goldenrod;
+    background-image: url(images/tradein.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .appletv{
     height: 836px;
