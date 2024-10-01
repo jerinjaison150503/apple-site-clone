@@ -4,70 +4,157 @@ body{
 .menu{
     height: 60px;
     width: 100%;
-    background-color: gray;
+    background-color:#161617cc;
     position: fixed;
     z-index: 1;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    justify-content: center;
+    display: flex;
+}
+.menu a{
     
+    text-decoration: none;
+    color: white;
+    padding: 20px 10px;
 }
 
 .offer{
+    background-color: lightgrey;
+    margin-top: 60px;
     height: 40px;
     width: 100%;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 15px;
 }
 
 .pro{
-    height: 570px;
+    height: 580px;
     width: 100%;
-    background-color: gold;
+    background-image: url(images/pro.jpg);
+    background-size: cover;
+    margin-top: 0px;
+
+}
+.protext{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.protext h1{
+    font-size: 60px;
+}
+.protext h2{
+    font-size: 30px;
+}
+.buttona{
+    
+}
+.buttonb{
+
 }
 
 .nonpro{
     height: 570px;
     width: 100%;
-    background-color: lightblue;
+    background-color: red;
+    background-size: cover;
+    margin-top: 5px;
 
 }
 
 .watch{
     height: 570px;
     width: 100%;
-    background-color: crimson;
+    background-color: blue;
+    background-size: 100% 100%;
+    margin-top: 5px
 
 }
 
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .ultra{
-    height: 462px;
-    width: 50%;
-    background-color: lightsalmon;
+    margin: 5px;
+    height: 580px;
+    width: 48%;
+    padding: 10px;
+    background-color: rgb(122, 255, 124);
+    /* display: inline; */
     
 
 }
+
 
 .pods{
-    height: 462px;
-    width: 50%;
-    background-color: crimson;
+    margin: 5px;
+    height: 580px;
+    width: 48%;
+    padding: 10px;
+    background-color: beige;
+    /* background-image: url(images/airpods_4.jpg); */
+    background-size: cover;
+    /* display: inline; */
     
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .podsmax{
+    margin: 5px;
     height: 462px;
+    width: 48%;
     width: 50%;
+    padding: 10px;
     background-color: black;
 }
 
 .air{
+    margin: 5px;
     height: 462px;
+    width: 48%;
     width: 50%;
+    padding: 10px;
     background-color: purple;
 }
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .ipad{
+    margin: 5px;
     height: 462px;
-    width: 50%;
+    width: 48%;
+    padding: 10px;
     background-color: yellow;
 }
 .trade{
+    margin: 5px;
     height: 462px;
-    width: 50%;
+    width: 48%;
+    padding: 10px;
     background-color: goldenrod;
+}
+.appletv{
+    height: 836px;
+    width: 100%;
+    background-image: url(images/appletv.png);
+    background-size: cover;
+}
+.rest{
+    height: 1504px;
 }
