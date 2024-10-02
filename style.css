@@ -109,12 +109,20 @@ body{
     transition: all 0.3s ease;
     display: inline-block;
     align-items: center;
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
+
     
 }
 .buttona:hover {
     background-color: #005bb5; 
     color: #f0f0f5; 
     border-color: #005bb5;
+}
+.buttona a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .buttonb{
@@ -132,6 +140,11 @@ body{
     background: none;
     outline: none;
 
+
+}
+.buttonb a{
+    text-decoration: none;
+    color: inherit;
 }
 .buttonb:hover {
     background-color: #f0f0f5; 
@@ -142,8 +155,8 @@ body{
 .nonpro{
     height: 570px;
     width: 100%;
-    background-image:url(https://www.apple.com/v/iphone-16/a/images/meta/iphone-16_specs__bq5wb41xhdle_og.png);
-    background-size: cover;
+    background-image:url(https://www.apple.com/newsroom/images/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/article/geo/Apple-iPhone-16-lineup-geo-240909_big.jpg.large.jpg);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 5px;
