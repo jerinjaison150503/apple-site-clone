@@ -36,7 +36,7 @@ body{
     height: 570px;
     width: 100%;
     padding-top: 15px;
-    background-image: url(images/pro.jpg);
+    background-image: url(images/pro2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -84,7 +84,7 @@ body{
     font-size: 30px;
 }
 .ipadtextup{
-    color: lightgray;
+    color: black;
     text-align: center;
     position: relative;
     top: 350px;
@@ -152,6 +152,8 @@ body{
     border-color: #005bb5;
 }
 
+
+
 .nonpro{
     height: 570px;
     width: 100%;
@@ -186,10 +188,9 @@ body{
     height: 580px;
     width: 48%;
     padding: 10px;
-    background-color: rgb(122, 255, 124);
+    background-color: rgb(0, 0, 0);
     background-image: url(https://www.apple.com/in/apple-watch-ultra-2/images/overview/hero/hero_endframe__ewae8bv9nsia_large.jpg);
-    /* display: inline; */
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center top;
 
@@ -253,9 +254,9 @@ body{
     height: 580px;
     width: 48%;
     padding: 10px;
-    background-color: yellow;
-    background-image: url(https://www.apple.com/newsroom/images/product/ipad/standard/apple_ipad-pro-spring21_hero_04202021_big.jpg.large.jpg);
-    background-size: cover;
+    background-color: #f5f5f7;
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-air-model-unselect-gallery-1-202405_FMT_WHH?wid=640&hei=360&fmt=jpeg&qlt=95&.v=1713559203897);
+    background-size: contain;
     background-repeat: no-repeat;
     /* background-position: center; */
 }
