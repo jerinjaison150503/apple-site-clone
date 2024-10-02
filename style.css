@@ -57,7 +57,45 @@ body{
 .protext h2{
     font-size: 30px;
 }
-
+.watchtext{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 330px;
+    line-height: .8;
+}
+.watchtext h1{
+    font-size: 60px;
+}
+.watchtext h2{
+    font-size: 30px;
+}
+.watchtextup{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -35px;
+    line-height: .8;
+}
+.watchtextup h1{
+    font-size: 60px;
+}
+.watchtextup h2{
+    font-size: 30px;
+}
+.ipadtextup{
+    color: lightgray;
+    text-align: center;
+    position: relative;
+    top: 350px;
+    line-height: .7;
+}
+.ipadtextup h1{
+    font-size: 60px;
+}
+.ipadtextup h2{
+    font-size: 30px;
+}
 .buttona{
     background-color: #005bb5;
     color: #0071e3;
@@ -168,7 +206,7 @@ body{
 
 .podsmax{
     margin: 5px;
-    height: 462px;
+    height: 580px;
     width: 48%;
     width: 50%;
     padding: 10px;
@@ -181,7 +219,7 @@ body{
 
 .air{
     margin: 5px;
-    height: 462px;
+    height: 580px;
     width: 48%;
     width: 50%;
     padding: 10px;
@@ -199,7 +237,7 @@ body{
 }
 .ipad{
     margin: 5px;
-    height: 462px;
+    height: 580px;
     width: 48%;
     padding: 10px;
     background-color: yellow;
@@ -210,7 +248,7 @@ body{
 }
 .trade{
     margin: 5px;
-    height: 462px;
+    height: 580px;
     width: 48%;
     padding: 10px;
     background-color: goldenrod;
@@ -225,6 +263,77 @@ body{
     background-image: url(images/appletv.png);
     background-size: cover;
 }
-.rest{
-    height: 1504px;
-}
+
+.apple-footer {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    border-top: 1px solid #d2d2d7;
+    color: #6e6e73;
+  }
+  
+  .footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #d2d2d7;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #6e6e73;
+    font-size: 14px;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #0071e3;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    color: #6e6e73;
+  }
+  
+  .footer-bottom p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  
+
+
+  
+
+  
+  
+  
